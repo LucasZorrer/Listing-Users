@@ -1,0 +1,207 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: rgb(125, 125, 170);
+}
+
+.navbar-container{
+    display: flex;
+    background-color: rgb(125, 125, 170);
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.navbar-brand {
+    margin: 100px;
+    position: relative;
+}
+
+#footer {
+    background-color: rgb(125, 125, 170);
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    height: 90px;
+    margin-bottom: 0;
+}
+
+#footer-links-container ul {
+   
+    list-style: none;
+    padding: 0;
+}
+#footer-links-container li {
+    display: inline-block;
+    margin: 0 20px;
+    transition: .5s;
+}
+#footer-links-container a,
+.navbar-brand {
+    color: #FFF;
+    font-weight: bold;
+    transition: .5s;
+    text-decoration: none;
+}
+#footer-links-container a:hover {
+    color: #000;
+}
+
+#footer-author {
+    color: #FFF;
+    font-weight: bold;
+}
+
+#main-container {
+    background-color: rgb(132, 140, 158);
+    min-height: 73vh;   
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#SignUp-container,
+#Login-container {
+    background-color: rgb(132, 140, 158);
+    min-height: 73vh;   
+}
+#SignUp-form,
+#Login-form {
+    max-width: 800px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10 auto;
+    color: #FFF;
+    font-weight: bold;
+}
+#SignUp-form h2,
+#Login-form h2 {
+    text-align: center;
+}
+
+.form-control {
+    border: none;
+ 
+    box-shadow: none;
+}
+.form-group .form-control{
+    margin-top: 8px;
+    width: 100%;
+}
+.form-group {
+    margin-top: 12px;
+}
+.form-group label {
+    color: #FFF;
+}
+.btn-primary {
+    margin-top: 15px;
+    width: 100%;
+    color: #FFF;
+    background-color: rgb(125, 125, 170);
+    border: 2px solid rgb(94, 94, 145);
+}
+
+.msg-container {
+    background-color: rgb(132, 140, 158);
+    padding: 15px;
+}
+.msg {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 1px #000;
+    text-align: center;
+}
+.msg.error {
+    color: #842029;
+    background-color: #F8D7DA;
+    border-color: #F5C2C7;
+}
+.msg.success {
+    color: #0F5132;
+    background-color: #D1E7DD;
+    border-color: #BADBCC;
+}
+#profile-image-container
+ {
+    width: 150px;
+    height: 150px;
+    border: 6px solid #3b2880;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 15px auto;
+}
+.profile-image-container {
+    width: 70px;
+    height: 70px;
+}
+.page-description {
+    color: #FFF;
+}
+#bio {
+    max-width: 400px;
+}
+.form-control.disabled {
+    background-color: #BBB; 
+}
+#change-password-container {
+    margin-top: 30px;
+}
+.edit-profile-page .card-btn
+{
+  width: auto;
+}
+
+.card-btn {
+    color: #000;
+    background-color: rgb(125, 125, 170);
+    border: 2px solid #5571ad;
+    width: 100%;
+    margin-top: 10px;
+}
+.card-btn:hover {
+    background-color: transparent;
+    color: rgb(85, 85, 134);
+    border-color: #5571ad;
+}
+#main-container h1,
+#change-password-container h2 {
+    color: #FFF;
+    font-weight: bold;
+}
+
+#container-card {
+    background-color: rgb(69, 79, 136);
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+.card-body {
+    background-color: rgb(69, 79, 136);
+    margin: 20px;
+}
+.card-text,
+.card-title {
+    color: #FFF;
+    font-weight: bold;
+    border: 0;
+}
+
+.empty-list {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    color: #FFF;
+    font-weight: bold;
+}
